@@ -1,94 +1,202 @@
 /*GENERAL*/
-.clear{
-    clear: both;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-header{
-    height: 120px;   
-    margin-top: 50px;
+
+body{
+    display: flex;
+}
+#journal {
+    /* background-color: blueviolet; */
+    padding: 20px;
+    width: 950px;
+    height: 1150px;
+    margin-left: 30px;
+
 }
 
-     
-
-
-/*HAUT*/
-
-#haut{
- padding-left: 40px;
+#div1 {
+    /*background-color: aqua;*/
+    height: 150px;
+    /* width: 100px; */
+    display: flex;
 }
 
-#haut div{
-    float: left;  /*pour éviter qu'il se mettent les uns au dessus des autres*/
-    display: inline-block;
-    margin-right: 20px;
-    /*border-radius: 10px; arrondir les bords des images*/
-}
 
-#haut div:last-child{
-    display: block;
-    float: left;
-    padding: 0px;
-    
-}
-
-#haut div:last-child p{
+#paris {
+    background-color: blue;
+    width: 100%;
     text-align: center;
-    margin-bottom: 20px;
+
 }
 
-#surligne {
+
+.logo {
+    margin-right: 20px;
+    color: azure;
+}
+
+
+.fille {
+    margin-right: 20px;
+}
+
+#avec {
     background-color: blue;
-    color: #fff;
-    text-transform:uppercase;
-    font-size: 20px;
-    line-height: 1px;
-    font-style: italic;
-    }
-
-#pidf{
-    background-color: blue;
-    color: #fff;
-    text-transform:uppercase;
-    font-size: 12px;
-    line-height: 20px;
-    font-style: italic;
-    
+    color: azure;
+    text-align: center;
+    width: 70px;
+    font-size: 1.5rem;
 }
 
-#entete{
-    border-bottom: 1px solid gray;
+.parag-p {
+    /* background-color: bisque; */
+    width: 300px;
+    height: 290px;
+    font-size: 2rem;
 }
 
-/*#clear {
-    margin-top: 0px;
-}*/
-
-/*Ligne dates site numro*/
-
-#ligne2{
-    padding-left: 40px;
-   }
-   
-#ligne2 {
-    /* display: inline-block; */
-    /* margin: 20px; */
-    width: 1000px;
-    /* text-align: center; */
+#claire {
+    color: blue;
 }
 
-.date{
-    padding-right: 50px;
+#p6 {
+    color: blue;
+
+}
+
+#trait {
+    border: 2px solid #ccc;
+    margin-top: 170px;
+}
+
+#div2 {
+    /*background-color: aquamarine;*/
+    height: 30px;
+    /*longeur*/
+    width: 950px;
+    /*largeur*/
+    margin-top: 10px;
+    /*en haut*/
+    display: flex;
+}
+
+.date {
+    /*background-color:blueviolet;*/
+    margin-right: 400px;
+}
+
+.site {
+    /*background-color:blueviolet ;*/
+    margin-right: 200px;
+}
+
+#div3 {
+    /* background-color: aquamarine; */
+    height: 600px;
+    /*longeur*/
+    width: 950px;
+    /*largeur;*/
+
+}
+
+.av-ath {
+    /* background-color: bisque; */
     float: left;
+    width: 170px;
+    height: 600px;
 }
 
+#eglise {
+    width: 150px;
 
-.numero{
-    float: right;
 }
 
+.ath {
+    /* background-color: brown; */
+    width: 700px;
+    height: 600px;
+    margin-left: 200px;
+
+}
+
+#hf {
+    width: 700px;
+    height: 600px;
+    margin-left: 30px;
+}
+
+#par2 {
+    color: blue;
+}
+
+#p3 {
+    color: blue;
+}
+
+#trait-egl {
+    margin-top: 3px;
+    border: 0.5px solid;
+    margin-right: 10px;
+}
+
+#reforme {
+    color: blue;
+    text-transform: uppercase;
+}
+
+#trait-egl {
+    margin-top: 3px;
+    border: 0.5px solid;
+    margin-right: 10px;
+}
+
+#anim {
+    margin-top: 3px;
+    width: 160px;
+    margin-left: 0.5px;
+}
+
+#trait-pied {
+    margin-top: 8px;
+    border: 0.5px solid #ccc;
+    width: 95%;
+}
+
+.img-pied {
+    width: 5px;
+}
+
+.pied-page {
+    /* background-color: blue; */
+    margin-top: 9px;
+    width: 130;
+    height: 160px;
+}
+
+#img-pied {
+    width: 130;
+    height: 160px;
+}
+
+.qrcode {
+    float: left;/*pour mettre côte à côte deux div*/
+    background-color: blue; 
+    width: 70px;
+    height: 1130px;
+    margin-top: 2%; 
+    
+
+    
 
 
+}
 
+#img-qrcode {
+    width: 70px;
+    height: 1130px; 
+}
 
-
-
+/*page*/
